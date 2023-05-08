@@ -421,11 +421,150 @@ nav  .navbar-white .fa-bars{
     font-size: 16px;
     font-weight: 500;
 }
-.container{
-    text-align: center;
-    
+.sidebar{
+    border: 1px solid #999;
+    padding: 30px 10px;
+    margin-top: 30px;
+    width: 80%;
+}
+.sidebar h2{
+    font-weight: 500;
+}
+.sidebar h3{
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+.Filters{
+    display: flex;
+    align-items: center;
+    color: #555;
+    margin-bottom: 10px;
+}
+.Filters p{
+    flex: 1;
+}
+.Filters input{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.sidebar-link{
+    text-align: right;
+    margin-bottom: 10px;
+    margin: 20px 0;
+}
+.sidebar-link a{
+    text-decoration: none;
+    border-radius: 100px;
+    width: auto;
+    padding: 6px 1px;
+    background-color: #ff5361;
+    color: #fff;
+}
+.padinatio{
+    display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px 0;
 
 }
+.right-arrow{
+    transform: rotate(180deg);
+}
+.padinatio span{
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    width: 10%;
+    height: 4%;
+    margin: 10px 0px;
+    font-size:1.5rem ;
+}
+.padinatio .current{
+background: #333;
+color: #fff;
+aspect-ratio: 1;
+height:0.5em ;
+width: 1rem;
+padding:1.5rem ;
+margin-left:3%;
+font-size:1.5rem ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img-shm{
+    width: 2rem;
+}
+
+@media only screen and (max-width: 700px){
+    .list-container{
+        margin-top:150px;
+    }
+    .left-col, .right-col, .house-img, .house-info{
+        flex-basis: 100%;
+    }
+}
+/*--------house-details page---*/
+.house-details{
+    padding:0 10%;
+}
+.house-title{
+    margin-top:50px;
+}
+.house-title h1{
+    font-weight: 600;
+}
+.house-title .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+.house-title span{
+    margin: 0 20px;
+}
+.house-title i{
+    color: #ff5361;
+    font-size: 14px;
+}
+.gallery{
+    display: grid;
+    grid-gap:10px;
+    grid-template-areas: 'first first . .' 'first first . .';
+    margin: 20px 0; 
+}
+.gallery div img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.gallery-img-1{
+    grid-area: first;
+}
+.small-detailes h2{
+font-weight: 500;
+}
+.small-detailes h4{
+    text-align: right;
+    font-size: 22px;
+}
+.line{
+    border: 0;
+    height: 1px;
+    background: #2c1c1c;
+    width: 100%;
+    max-width: 800px;
+    margin: 30px 0 50px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
