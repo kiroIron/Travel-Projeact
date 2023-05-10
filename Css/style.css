@@ -556,6 +556,166 @@ font-weight: 500;
     max-width: 800px;
     margin: 30px 0 50px;
 }
+.chech-form{
+    margin: 30px 0;
+    background: #fff;
+    box-shadow: 0 0 30px  rgba(0, 0 ,0 ,0.3);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 10px ;
+}
+.chech-form label{
+    display:block ;
+}
+.chech-form div{
+    padding: 20px;
+}
+.chech-form input{
+    background: transparent;
+    border:0 ;
+    outline: none;
+}
+.chech-form button{
+    background:#ff5361;
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 18px;
+    width: 28rem;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 20%;
+}
+.details-list{
+    list-style: none;
+    margin: 50px 0;
+}
+.details-list li{
+    margin-left:50px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #555;
+    position: relative;
+}
+.details-list li span{
+    display: block;
+    font-weight: 400;
+    font-size:16px; 
+}
+.details-list li i{
+    position: absolute;
+    top: 5px;
+    left: -40px;
+    color: #ff5361;
+}
+.home-desc{
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+.map{
+    margin:50px 0;
+}
+.map iframe{
+width: 100%;
+margin-bottom: 30px;
+}
+.map h3{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.map b{
+    display: block;
+    margin: 16px;
+}
+.map p{
+    margin-left: 2%;
+}
+.host{
+    display: flex;
+    align-items: center;
+}
+.host img{
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.host h2{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.host i{
+    color: #ff5361;
+}
+.Content-host{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    margin: 40px 0 40px 120px;
+    padding: 15px 50px;
+    border: 1px solid #ff5361;
+    border-radius: 8px;
+}
+/*----media query for house details page------*/
+@media only screen and (max-width:700px){
+    .house-details{
+        margin-top: 150px;
+    }
+    .row p{
+        margin-top:10px;
+    }
+    .gallery{
+        grid-template-areas: 'first first' '. .' '. .';
+    }
+    .small-detailes h2{
+        font-size: 20px;
+        margin-top:24px;
+    }
+    .small-detailes h4{
+        text-align: left;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    .chech-form{
+        padding: 10px 30px;
+    }
+    .chech-form div{
+        padding: 20px 0;
+        width:100%;
+    }
+    .chech-form input{
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        padding-bottom:5px ;
+    }
+    .chech-form button{
+     text-align: center;
+     justify-content: center;
+     margin-right: 14%;
+}
+.host{
+    display: block;
+    line-height: 28px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
